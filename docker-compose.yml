@@ -3,14 +3,14 @@ services:
   worker:
     build: .
     environment:
-      API_ID: 
-      API_HASH: 
-      BOT_TOKEN: 
-      MONGO_DB_URI: 
-      LOG_GROUP_ID: 
+      API_ID: 11580715 
+      API_HASH: 9c5726bcbaf7ca80da16fce729cbe803
+      BOT_TOKEN: 5534356255:AAHuiClPh_QiqJUT1PZxmLB-ZNdOS4BOGYo
+      MONGO_DB_URI: mongodb+srv://Sarathi:1234@cluster0.t4zm3.mongodb.net/?retryWrites=true&w=majority
+      LOG_GROUP_ID: -1001694530032
       MUSIC_BOT_NAME: NC_Music_Queen_Bot
       OWNER_ID: 1217260904
-      STRING_SESSION: 
+      STRING_SESSION: BQCwtSsApcyQ21HrwCuBuVKWjKdOfA5fDNSYFtg7d6jO_eCmIoh1sVYgzp8XmWczLxxfcoijtMStczkKKzXV4jA2cB1bTisAs29FfzfAMGxmCUgem3F2cybpz1VpNOCZF0R1XjmcAmDivvIPTzHj3A_tSJ24vQiE4ISIXch4E5COZ57VYddbijo4-euebZdaywpAOrgfBHWFpMVBL83upK_i2R4MO889_ltAW86zUCf9IKSTitJ0E4VDsU-yB_uLsRMJ31j02CrlomaIhegbgCGQ8rV3L2ODlukLZwuLMF9hREPskzc5A_2nDT78vWdAhsYUp2Mb2BfJTQ7d__yMFpwiboWSVgAAAABocraTAA
       DURATION_LIMIT: 300
       SONG_DOWNLOAD_DURATION_LIMIT: $SONG_DOWNLOAD_DURATION_LIMIT
       VIDEO_STREAM_LIMIT: $VIDEO_STREAM_LIMIT
